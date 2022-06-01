@@ -1,9 +1,79 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Ahyana</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <title>CSS Cheatsheet</title>
+    <link href="resources/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">        
+  </head>
+  <body>
+    <header>
+      <h1>Positioning and Display Reference</h1>
+    </header>
+    <main>
+      <div id="position">
+        <h2>Positioning</h2> 
+        <table>
+          <thead>
+            <tr>
+              <td>Declaration</td>
+              <td>Description</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>position: static;</td>
+              <td>The default positioning of an element which is left-adjusted</td>
+            </tr>
+            <tr>
+              <td>position: relative;</td>
+              <td>Allows you to position an element relative to its default positioning.</td>
+            </tr>
+            <tr>
+              <td>position: absolute;</td>
+              <td>Removes the element from the flow of the document causing other elements to ignore its positioning.</td>
+            </tr>
+            <tr>
+              <td>position: fixed;</td>
+              <td>Causes the element to stay fixed to its position regardless of user scrolling.</td>
+            </tr>
+            <tr>
+              <td>position: sticky;</td>
+              <td>Keeps the element in the document flow even an the user scrolls by sticking to a specified location.</td>
+            </tr>
+            <tr>
+              <td>z-index: "value";</td>
+              <td>Impacts how forward or back an element appears to be. The default is 0 but it will accept all intergers.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="display">
+        <h2>Display</h2>
+        <table>
+          <thead>
+            <tr>
+              <td>Declaration</td>
+              <td>Description</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>display: inline;</td>
+              <td>Causes an element to fall inline with any element directly before or after it that also has an inline display.</td>
+            </tr>
+            <tr>
+              <td>display: block;</td>
+              <td>By default, these elements take up the entire width of the screen even if their content does not.</td>
+            </tr>
+            <tr>
+              <td>display: inline-block;</td>
+              <td>Combines the features of inline and block display.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </body>
 </html>
